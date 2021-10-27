@@ -1,0 +1,83 @@
+{
+  "configVersion": 1,
+  "timestamp": 1635305104236,
+  "index": "https://Edith-spec.github.io/Basepwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://Edith-spec.github.io/Basepwa/favicon.ico",
+        "https://Edith-spec.github.io/Basepwa/index.html",
+        "https://Edith-spec.github.io/Basepwa/main.be12b0da7ba4fde8ece2.js",
+        "https://Edith-spec.github.io/Basepwa/manifest.webmanifest",
+        "https://Edith-spec.github.io/Basepwa/polyfills.77a1993727a31fa030dd.js",
+        "https://Edith-spec.github.io/Basepwa/runtime.18821b64a88c577ecb6a.js",
+        "https://Edith-spec.github.io/Basepwa/styles.11cf6b3a7e166a1bde8d.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://Edith-spec.github.io/Basepwa/assets/icons/icon-128x128.png",
+        "https://Edith-spec.github.io/Basepwa/assets/icons/icon-144x144.png",
+        "https://Edith-spec.github.io/Basepwa/assets/icons/icon-152x152.png",
+        "https://Edith-spec.github.io/Basepwa/assets/icons/icon-192x192.png",
+        "https://Edith-spec.github.io/Basepwa/assets/icons/icon-384x384.png",
+        "https://Edith-spec.github.io/Basepwa/assets/icons/icon-512x512.png",
+        "https://Edith-spec.github.io/Basepwa/assets/icons/icon-72x72.png",
+        "https://Edith-spec.github.io/Basepwa/assets/icons/icon-96x96.png",
+        "https://Edith-spec.github.io/Basepwa/assets/shipping.json"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://Edith-spec.github.io/Basepwa/assets/icons/icon-128x128.png": "5e9375ccd2b8515ab169f45f4d5aecce539b9f1d",
+    "https://Edith-spec.github.io/Basepwa/assets/icons/icon-144x144.png": "d5240230bd708e76e4a77d120327f7184c5a03e3",
+    "https://Edith-spec.github.io/Basepwa/assets/icons/icon-152x152.png": "03b519b7ef75d339dad1e890fa4e72622bee407d",
+    "https://Edith-spec.github.io/Basepwa/assets/icons/icon-192x192.png": "ccec3050e4b8d29ab09054548a9adaa7f5ef2eba",
+    "https://Edith-spec.github.io/Basepwa/assets/icons/icon-384x384.png": "e46d098ecae94e6c8c7e81bc5e86d5c1d03a1d15",
+    "https://Edith-spec.github.io/Basepwa/assets/icons/icon-512x512.png": "2ad656f25d4a9d4907bfb1f23ebe17b61d33dec5",
+    "https://Edith-spec.github.io/Basepwa/assets/icons/icon-72x72.png": "90df27bf42cfc5a334193a478f32314b9b84164b",
+    "https://Edith-spec.github.io/Basepwa/assets/icons/icon-96x96.png": "2abc9eeab8159abc5278fb4d0be1adc72624f452",
+    "https://Edith-spec.github.io/Basepwa/assets/shipping.json": "9f9e342c76babd68907ccdb6c8d75b761fac74e1",
+    "https://Edith-spec.github.io/Basepwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://Edith-spec.github.io/Basepwa/index.html": "fcc5ba02ecdaedaac3ca743ad3c07d2c3bac1d9d",
+    "https://Edith-spec.github.io/Basepwa/main.be12b0da7ba4fde8ece2.js": "0776ae00ed789373c30d64c7e8891c9c7286c663",
+    "https://Edith-spec.github.io/Basepwa/manifest.webmanifest": "5b11e35c68e709b7cac3f52993049cc430ce1626",
+    "https://Edith-spec.github.io/Basepwa/polyfills.77a1993727a31fa030dd.js": "4cf661614a4ec3db0f1098456e80b8d00128d1d0",
+    "https://Edith-spec.github.io/Basepwa/runtime.18821b64a88c577ecb6a.js": "7e55b36d225118431e7c39e9bc0c06b3379216b2",
+    "https://Edith-spec.github.io/Basepwa/styles.11cf6b3a7e166a1bde8d.css": "afdfbd6fa0a454418a996df3f3117579c16d465e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
